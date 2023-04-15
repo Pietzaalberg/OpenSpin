@@ -9,4 +9,5 @@ build
 .pydevproject
 .mypy_cache
 .eggs
+.egg-info
 hifiscan.egg-info

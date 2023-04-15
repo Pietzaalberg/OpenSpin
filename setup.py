@@ -6,14 +6,14 @@ with open("README.rst", 'r', encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name='hifiscan',
-    version='1.4.3',
-    description='Optimize the audio quality of loudspeakers',
+    name='openspin',
+    version='0.0.1',
+    description='Spinorama measurements of your speaker',
     long_description=long_description,
-    packages=['hifiscan'],
-    url='https://github.com/erdewit/hifiscan',
-    author='Ewald R. de Wit',
-    author_email='ewald.de.wit@gmail.com',
+    packages=['openspin'],
+    url='https://github.com/Pietzaalberg/OpenSpin',
+    author='Piet Zaalberg',
+    author_email='additaudio@gmail.com',
     license='BSD',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -26,7 +26,7 @@ setup(
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3 :: Only',
     ],
-    keywords='frequency impulse response audio spectrum equalizer',
+    keywords='frequency impulse response audio spectrum equalizer arduino hardware',
     entry_points={
         'gui_scripts': ['hifiscan=hifiscan.app:main']
     },
